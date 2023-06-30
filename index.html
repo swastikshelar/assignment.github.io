@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<html>
+<body>
+  <div class="container">
+    
+    <div class="left-panel">
+      <ul>
+        <li><a href="#" onclick="showContent('home-content')">Home</a></li>
+        <li><a href="#" onclick="showContent('contact-content')">Contact</a></li>
+        <li><a href="#" onclick="showContent('info-content')">Information</a></li>
+        <li><a href="#" onclick="showContent('guide-content')">Guide</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="card" id="home-content">
+        <h2>StrengthLab Fitness</h2>
+        <p>Welcome to the StrengthLab Fitness !</p>
+        <h3>Best Gym in Navi Mumbai. Enroll Now</h3>
+        <div><button> <span>Get Started</span></button></div>
+       </div>
+
+      <div class="card" id="contact-content" style="display: none;">
+        <h2>Contact</h2>
+        <p>Contact information goes here.</p>
+        <div class="cnt-cards">
+          <div class="cnt-card">
+            <h4>Contact Number</h4>
+            <img src="https://cdn-icons-png.flaticon.com/512/7324/7324727.png" alt="">
+            <h4>9837527648</h4>
+          </div>
+          <div class="cnt-card">
+            <h4>Email Address</h4>
+            <img src="https://cdn-icons-png.flaticon.com/512/3686/3686989.png" alt="">
+            <h4>Strengthlabfitness.com</h4>
+          </div>
+          <div class="cnt-card">
+            <h4>Address</h4>
+            <img src="https://cdn-icons-png.flaticon.com/512/727/727606.png" alt="">
+            <h4>Airoli, Navi Mumbai</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="info-content" style="display: none;">
+        <h2>Information</h2>
+        <p>Our package stars from</p>
+        
+        <div class="cnt-cards">
+          <div class="cnt-card">
+            <h3>Men</h3>
+            <p><ul style="text-align: left;">
+              <li>Cardio</li>
+              <li>Weight Traning</li>
+              <li>Kick boxing</li>
+              <li>Zumba</li>
+              <li>Steam room</li>
+            </ul></p>
+            <h4>Rs 7995/-</h4>
+          </div>
+          <div class="cnt-card">
+            <h4>Women</h4>
+            <p><ul style="text-align: left;">
+              <li>Cardio</li>
+              <li>Weight Traning</li>
+              <li>Kick boxing</li>
+              <li>Zumba</li>
+              <li>Steam room</li>
+            </ul></p>
+            <h4>Rs 6995/-</h4>
+          </div>
+          
+      </div>
+    </div>
+      
+    
+    <div class="card" id="guide-content" style="display: none;">
+      <h2>Guide</h2>
+      <p>A guide or tutorial content is shown in this section.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
